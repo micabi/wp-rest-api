@@ -37,8 +37,7 @@
 var news = document.querySelector('#news');
 var html = '';
 
-// axios.get('https://pawn-ueda.test/wp-json/wp/v2/posts')
-axios.get('https://display.uedanet.jp/wp-json/wp/v2/posts')
+axios.get('https://YOUR.DOMAIN.com/wp-json/wp/v2/posts')
   .then(function(response) {
     var data = response.data;
 
